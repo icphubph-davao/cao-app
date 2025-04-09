@@ -1,5 +1,9 @@
 {
   "canisters": {
+    "cao-app-frontend": {
+      "type": "assets",
+      "source": ["src/cao-app-frontend/out"]
+    },
     "cao-app-backend": {
       "main": "src/cao-app-backend/main.mo",
       "type": "motoko"
